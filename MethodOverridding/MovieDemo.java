@@ -5,13 +5,13 @@ import java.util.List;
 
 // Parent class
 class Movie {
-    protected String title;
-    protected String genre;
-    protected String director;
-    protected LocalDate releaseDate;
-    protected double rating;
-    protected int durationMinutes;
-    protected List<String> actors;
+    private String title;
+    private String genre;
+    private String director;
+    private LocalDate releaseDate;
+    private double rating;
+    private int durationMinutes;
+    private List<String> actors;
 
     public Movie(String title, String genre, String director, LocalDate releaseDate, double rating, int durationMinutes, List<String> actors) {
         this.title = title;
